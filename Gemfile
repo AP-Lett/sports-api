@@ -1,5 +1,10 @@
 source "https://rubygems.org"
 
+gem 'bcrypt', '~> 3.1.7' # For hashing passwords securely
+gem 'jwt', '~> 2.2'      # For generating JSON Web Tokens
+gem 'pundit'
+gem 'faker'
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 8.0.1"
 # Use sqlite3 as the database for Active Record
