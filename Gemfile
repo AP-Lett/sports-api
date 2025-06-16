@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 gem 'bcrypt', '~> 3.1.7' # For hashing passwords securely
-gem 'jwt', '~> 2.2'      # For generating JSON Web Tokens
+gem 'jwt', '~> 3.0'      # For generating JSON Web Tokens
 gem 'pundit'
 gem 'faker'
 
